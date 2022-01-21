@@ -1,4 +1,10 @@
-Uknumbers 
+Uk Phone Number Validation
+
+This library allows for phone number validation based on the Ofcom National Telephone Numbering Plan.
+
+Useful data can be obtained from a phone number such as locality, mobile provider etc.
+
+Phone numbers are of variable length. Local numbers are supported from land-lines or numbers can be dialled with a '0'-lead prefix that denotes either a geographical region or another service. Mobile phone numbers have their own prefixes which are not geographical and are completely portable between providers.
 
 ****
 Example usage
@@ -7,7 +13,7 @@ The main object that the library deals with is a PhoneNumber object. You can cre
 
 The PhoneNumber object that is produces typically still needs to be validated.
 
-`num1 = Phonenumber('07974350147')`
+`num1 = Phonenumber('07974350148')`
 
 `print(num1.valid)` True
 
@@ -15,7 +21,7 @@ The PhoneNumber object that is produces typically still needs to be validated.
 
 `print(num1.location)` EE	mobile numbers	UK
 
-`print(num1.suffix)` 350147
+`print(num1.suffix)` 350148
 
 `print(num1.mobile)` True
 
