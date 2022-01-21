@@ -21,7 +21,7 @@ The PhoneNumber object that is produces typically still needs to be validated.
 
 ****
 
-`num2 = Phonenumber('01253896361')`
+`num2 = Phonenumber('01253444444')`
 
 `print(num2.valid)` True
 
@@ -29,6 +29,6 @@ The PhoneNumber object that is produces typically still needs to be validated.
 
 `print(num2.location)` Blackpool
 
-`print(num2.suffix)` 896361
+`print(num2.suffix)` 444444
 
 `print(num2.mobile)` False
